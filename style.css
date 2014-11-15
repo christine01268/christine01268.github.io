@@ -1,24 +1,35 @@
 body {
-	line-height: 50%;
 	color: white;
-	background: url("stripes.png"), url("background.jpg");
-	background-position: top, top;
-	background-size: auto, cover;
-	background-repeat: repeat-x;
-	font-family: arial;
-	padding-top: 150px;
+	background: url("Miso Ramen.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 120px;
 	padding-left: 80px;
+	text-align: center;
 }
 
-hr {
-	width: 60px;
-	color: #915462;
-	border-color: #915462;
-	margin-left: 0px;
+h1 {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 7em;
+	line-height: 30%;
+}
+
+h2 {
+	font-family: 'Noto Sans', sans-serif;
+	padding-bottom: 50px;
 }
 
 p {
-	font-size: 18px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 1.2em;
+	padding-left: 430px;
+	padding-right: 430px;
+	padding-top: 15px;
+}
+
+hr {
+	width: 150px;
+	color: #FFFFFF;
+	border-color: #FFFFFF;
 }
