@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #F8F6F2;
+}
+
+h1 {
+	font-family: 'Delius Swash Caps', sans-serif;
+	display: inline-block;
+	float:left;
+	margin: 15px;
+	padding: 10px;
+	color: #FF7961;
+}
+
+nav {
+	font-family: 'Signika Negative', serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+nav a {
+	text-decoration: none;
+	color: #998F9F;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 15px;
+	float: right;
+	margin: 10px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
