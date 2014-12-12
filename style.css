@@ -31,6 +31,19 @@ nav a {
 	margin: 10px;
 }
 
+#wrapper {
+	background-color: red;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 120%;
+	padding: 250px;
+}
+
+.nospace {
+	padding: 0;
+	margin: 0;
+}
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
