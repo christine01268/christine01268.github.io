@@ -17,8 +17,17 @@ h1 {
 
 h2 {
 	font-family: 'Signika Negative', serif;
-	font-size: 64px;
+	font-size: 72px;
 	color: #F8F6F2;
+	text-shadow: 2px 2px #998F9F;
+}
+
+p {
+	font-family: 'Signika Negative', serif;
+	font-size: 48px;
+	color: #F8F6F2;
+	text-shadow: 2px 2px #998F9F;
+	line-height: 100%;
 }
 
 nav {
@@ -38,7 +47,7 @@ nav a {
 }
 
 #wrapper {
-	background: url("runner.JPG");
+	background: url("rowers.JPG");
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin: 0 auto;
