@@ -10,8 +10,9 @@ h1 {
 	font-family: 'Delius Swash Caps', sans-serif;
 	display: inline-block;
 	float:left;
+	font-size: 36px;
 	margin: 15px;
-	padding: 10px;
+	padding: 5 10 10 10;
 	color: #FF7961;
 }
 
@@ -24,15 +25,17 @@ h2 {
 
 p {
 	font-family: 'Signika Negative', serif;
-	font-size: 48px;
+	font-size: 32px;
 	color: #F8F6F2;
 	text-shadow: 2px 2px #998F9F;
 	line-height: 100%;
+	text-align: bottom;
+	padding-bottom: 180px;
 }
 
 nav {
 	font-family: 'Signika Negative', serif;
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: 400;
 }
 
@@ -41,19 +44,28 @@ nav a {
 	color: #998F9F;
 	text-transform: uppercase;
 	display: inline-block;
-	padding: 15px;
+/*	padding-right: 15px;
+	padding-top: 25px;*/
 	float: right;
-	margin: 10px;
+	margin: 15px;
+	padding: 10px;
+}
+
+nav a:hover {
+	background-color:#FF7961;
+	color:#F8F6F2;
 }
 
 #wrapper {
-	background: url("rowers.JPG");
+	background: url("bike.JPG");
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin: 0 auto;
 	text-align: center;
 	line-height: 120%;
-	padding: 250px;
+	padding-top: 200px;
+	padding-right: 200px;
+	padding-left: 200px;
 }
 
 .nospace {
