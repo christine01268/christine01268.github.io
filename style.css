@@ -33,13 +33,13 @@ p {
 	padding-bottom: 180px;
 }
 
-nav {
+ul {
 	font-family: 'Signika Negative', serif;
 	font-size: 24px;
 	font-weight: 400;
 }
 
-nav a {
+ul a {
 	text-decoration: none;
 	color: #998F9F;
 	text-transform: uppercase;
@@ -51,7 +51,7 @@ nav a {
 	padding: 10px;
 }
 
-nav a:hover {
+ul a:hover {
 	background-color:#FF7961;
 	color:#F8F6F2;
 }
