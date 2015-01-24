@@ -68,11 +68,6 @@ nav a:hover {
 	padding-left: 200px;
 }
 
-.nospace {
-	padding: 0;
-	margin: 0;
-}
-
 .clearfix:after {
 	visibility: hidden;
 	display: block;
